@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seting Manage Credit Limits Validation</title>
+    <!--bootstrap-file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--bootstrap-file-->
+    <!--fontawesome-file-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--fontawesome-file-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/reports.css">
+    <link rel="stylesheet" href="css/style-2.css">
+    <link rel="stylesheet" href="css/search-bar.css">
+    <link rel="stylesheet" href="css/seedemo.css">
+    <link rel="stylesheet" href="css/update.css">
+    <!--icons-site-->
+    <link rel="icon" type="png" href="img/logo.png">
+    <!--icons-site-->
+    <!--google-font-->
+    <!--woow AnimateFiles Css-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--woow AnimateFiles Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!--google-font-->
+  </head>
+  <body class="cairo-uniquifier position-relative">
+     <!--navbar-site-->
+     <div class="navbar-all-site cairo-uniquifier">
+        <div class="top-navbar ">
+          <div class="container">
+            <span class="inputicons"><i class="fa-solid fa-book"></i></span><input type="text" class="mt-2 mb-2"
+              placeholder="Contact Us For Personalized Demo">
+            <a href="settings.html" class="mt-4 mb-4"> <i class="fa-solid fa-house"></i><a href="settings.html"> My
+                account</a></a>
+            <a href="settings.html"><img src="img/person2.jpg" class="img-fluid" alt=""></a>
+            <span class="mt-4 mb-3"><i class="fa-solid fa-power-off"></i><a href="#"> sign out</a></span>
+    
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <span class="text-light"><i class="fa-solid fa-bars p-1"></i></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="globalView.html"><span><i
+                        class="fa-solid fa-eye"></i></span> global view</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="collection.html"><span><i class="fa-solid fa-clock"></i></span> collection</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="actionsToDo.html">
+                    <span><i class="fa-solid fa-bolt "></i></span>risk
+                  </a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link" href="allClients.html"><span><i class="fa-solid fa-globe"></i></span> clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="searchForAClient.html"><span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    search</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="reportsDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" href="#"><span><i class="fa-solid fa-chart-simple"></i></span> reports</a>
+                  <ul class="dropdown-menu" aria-labelledby="reportsDropdown">
+                    <li><a class="dropdown-item text-secondary" href="reportsAgingBalance.html"><i
+                          class="fa-solid fa-chart-simple "></i> Aging balance</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsOverdueTrend.html"><i
+                          class="fa-solid fa-clock-rotate-left"></i> Overdue trend</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsDSO.html"><i class="fa-solid fa-chart-line"></i>
+                        DSO</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsItemsStatus.html"><i
+                          class="fa-solid fa-chart-pie"></i> Items status</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsDisputes.html"><i
+                          class="fa-solid fa-handshake-simple"></i> Disputes</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-secondary" href="reportsSales.html"><i class="fa-solid fa-signal"></i>
+                        Sales</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsCashReciepts.html"><i
+                          class="fa-solid fa-money-bill-1-wave"></i> Cash receipts</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsCashForecast.html"><i
+                          class="fa-solid fa-wand-magic-sparkles"></i> Cash Forecast</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsPaymentSchedule.html"><i
+                          class="fa-solid fa-table-cells"></i> Payment Schedule</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-secondary" href="reportsRisk.html"><i
+                          class="fa-solid fa-bolt me-2"></i>Risk</a></li>
+                    <li><a class="dropdown-item text-secondary" href="reportsPaymentProfile.html"><i
+                          class="fa-solid fa-flag me-2"></i>Payment profile</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><span><i class="fa-solid fa-gear"></i></span> setting
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="settingsDropdown">
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-users-account.html"><i
+                          class="fa-solid fa-users"></i> Manage users account</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-secure.html"><i class="fa-solid fa-lock"></i>
+                        Secure my account and user accounts</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-secondary" href="settings-import-export-data.html"><i
+                          class="fa-solid fa-rotate"></i> Import / Export your data</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-search.html"><i
+                          class="fa-solid fa-robot"></i> Manage search assign</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-create-client.html"><i
+                          class="fa-solid fa-plus"></i> Create a client</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-create-item.html"><i
+                          class="fa-solid fa-plus"></i> Create an item(invoice, credit note,...)</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-clients-group.html"><i
+                          class="fa-regular fa-folder-open"></i> Manage clients group</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-collection-scenario.html"><i
+                          class="fa-regular fa-clock"></i> Manage collection scenario</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-item-status.html"><i
+                          class="fa-regular fa-square-check"></i> Manage item status</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-payment-profile.html"><i
+                          class="fa-regular fa-flag"></i> Manage payment profiles</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-risk-settings.html"><i
+                          class="fa-solid fa-bolt"></i> Manage risk</a></li>
+                    <li><a class="dropdown-item text-secondary" href="settings-manage-validation.html"><i
+                          class="fa-solid fa-computer"></i>Manage credit limits validation</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="help.html"><span><i class="fa-solid fa-circle-info"></i></span> helps</a>
+                </li>
+                <div class="icons-nav">
+                  <a href="insights.html"><i class="fa-solid fa-book"></i></a>
+                  <a class="position-relative" href="#" id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <div class="search-container px-4 py-2 rounded" id="search-container">
+                    <p>Quick search :</p>
+                    <div class="input-group w-100 ">
+                      <input type="text" class="search-input form-control"
+                        placeholder="Search for a client / Search for an item (invoice, credit note, ...)...">
+                      <span class="input-group-text bg-secondary"><a href="#"><i
+                            class="fa-solid fa-search text-white"></i></a></span>
+                    </div>
+                    <div class="d-flex "><input type="checkbox" class="mb-3 me-1 chec bg-body-tertiary">
+                      <p class="name-d">Include cleared items</p>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+  <!--navbar-site--> 
+  <h2 class="text-center mt-4 text-capitalize">Report Kmi</h2>
+  <div class="container-fluid">
+    <div class="d-flex justify-content-between">
+      <button class="mt-1 text-capitalize border-0 bg-transparent text-dark"><span><i class="fa-solid fa-money-bill-1-wave pe-2"></i></span> Evaluation history</button>
+</div>
+<hr class="container-fluid">
+</div>
+<div class="chart-new-page">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+            <div class="chart-4-line">
+              <div class="dropdown d-flex justify-content-end">
+                <i class="fa-solid fa-download text-secondary" style="font-size: 25px;cursor: pointer;" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item text-dark" href="#">Download the graph</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Export these data to Excel</a></li>
+                </ul>
+              </div>
+                <div class="chart-2">
+                    <canvas id="chart-4-line"  width="700" height="400"></canvas>
+                  </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="rikss-input">
+                  <div class="form-group">
+                    <select class="form-select border-dark m-2" onfocus='this.size=9;' onblur='this.size=1;' onchange='this.size=1; this.blur();' aria-label=" Default select example">
+                      <option value="" selected disabled>Clients Group :</option>
+                      <option value="1">ATLANTIQue</option>
+                      <option value="2">Central</option>
+                      <option value="3">Clients douteux</option>
+                      <option value="3">Clients France</option>
+                      <option value="3">Clients Grands Comptes</option>
+                      <option value="3">Clients Mass market</option>
+                      <option value="3">Clients OSP</option>
+                      <option value="3">Clients PME</option>
+                      <option value="3">Clients Publics</option>
+                      <option value="3">Clients Risques</option>
+                      <option value="3">Clients Speciaux</option>
+                      <option value="3">Clients VIP</option>
+                      <option value="3">ClIENT_MEDIPREMA</option>
+                      <option value="3">France Contentieux</option>
+                      <option value="3">Group Alias</option>
+                      <option value="3">Group Elec</option>
+                      <option value="3">Group Imprimeurs</option>
+                      <option value="3">Group Industrie</option>
+                      <option value="3">Magasins de villa</option>
+                      <option value="3">Market Place</option>
+                      <option value="3">Public</option>
+                      <option value="3">Relance team back office</option>
+                      <option value="3">Retail</option>
+                      <option value="3">Salomon</option>
+                      <option value="3">Test 2</option>
+                      <option value="3">US Clients</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-select border-dark m-2 w-100" aria-label="Default select example">
+                      <option selected disabled>Collector :</option>
+                      <option value="1">Mike Anderson(Collector)</option>
+                      <option value="1">Nicolas Grayson(Collector)</option>
+                      <option value="1">Paul Mayer(Administrator)</option>
+                      <option value="1">Veronique Miguet(Credit Manager)</option>
+                      <option value="1">[None]</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <select class="form-select border-dark m-2" aria-label="Default select example">
+                      <option selected disabled>Associated With Client :</option>
+                      <option value="1">Brad Jackson(Sales Manager)</option>
+                      <option value="1">Juse Durant(Sales Manager)</option>
+                      <option value="1">Paul Mayer(Sales Manager)</option>
+                      <option value="1">Thomas Smith(Executive Officer)</option>
+                      <option value="1">Vironica Campbell(Sales Administration)</option>
+                    </select>
+                  </div>
+                  <div class="form-group ">
+                    <select class="form-select border-dark m-2" aria-label="Default select example">
+                      <option value="" selected disabled>Custom Field #1 :</option>
+                      <option value="1">10</option>
+                      <option value="3">[None]</option>
+                      <option value="3">[Not Empty]</option>
+                    </select>
+                  </div>
+                  <div class="form-group ">
+                    <select class="form-select border-dark m-2" aria-label="Default select example">
+                      <option value="" selected disabled>Customers Custom Field #1 :</option>
+                      <option value="1">01</option>
+                      <option value="2">02</option>
+                      <option value="3">[None]</option>
+                      <option value="3">[Not Empty]</option>
+                    </select>
+                  </div>
+                  <div class="form-group ">
+                    <select class="form-select border-dark m-2 w-100" aria-label="Default select example">
+                      <option selected disabled>Customers Custom Field #2 :</option>
+                      <option value="1">AZ</option>
+                      <option value="2">BI</option>
+                      <option value="3">[None]</option>
+                      <option value="3">[Not Empty]</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="the-add mb-3">
+                    <div class="add text-center">
+                      <h6>Gropus Reuslts By</h6>
+                      <div class="input-add">
+                        <div class="form-group ">
+                          <select class="form-select border-secondary m-2" aria-label="Default select example">
+                            <option value="0" selected>Company / bussiness name</option>
+                            <option value="1">Collector</option>
+                            <option value="2">Customers Custom Field #1</option>
+                            <option value="3">Customers Custom Field #2</option>
+                          </select>
+                        </div>
+                    </div>
+                    </div>
+             </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="table-new-page-3 mt-3 mb-2 ">
+  <div class="big-tab">
+    <div class="container-fluid">
+      <div class="table-responsive">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>entites</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>date</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>collection effciency</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>% qualified Overdue</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>late action rate</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>manual actions for last 30d</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>automatic action for last 30d</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>number of late action +7day</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>average time for Dispute resolution</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>disputes rate</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>actual risk (amount)</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>actual risk (%)</th>
+                      <th  style="cursor: pointer;"><span class="mx-2 " ><i class="fa-solid fa-sort"></i></span>rate of clients with collector </th>
+                      <th  style="cursor: pointer;"><span class="mx-2"><i class="fa-solid fa-sort"></i></span>rate of clients with contact for collection</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2"><i class="fa-solid fa-sort"></i></span>rate of clients with collection scenario</th>
+                      <th  style="cursor: pointer;" ><span class="mx-2"><i class="fa-solid fa-sort"></i></span>edm</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr  style="background-color: #006bff14;">
+                      <td><a href="">company</a></td>
+                      <td>2024-8-5</td>
+                      <td class=""><span class="orange-color mx-2">37 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="text-success mx-2">100 %</span><span class="text-success"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="orange-color mx-2">50 %</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="mx-2">43</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="mx-2">22</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="mx-2">1</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="orange-color mx-2">10 d</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="mx-2">3.7 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="mx-2">43.6 K€</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="text-danger mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                      <td style="white-space: nowrap;"><a href="">direct link to EDM</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="">company</a></td>
+                    <td style="white-space: nowrap;">2024-8-5</td>
+                    <td class=""><span class="orange-color mx-2">37 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="text-success mx-2">100 %</span><span class="text-success"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="orange-color mx-2">50 %</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="mx-2">43</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="mx-2">22</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="mx-2">1</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="orange-color mx-2">10 d</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="mx-2">3.7 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="mx-2">43.6 K€</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="text-danger mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                    <td style="white-space: nowrap;"><a href="">direct link to EDM</a></td>
+                </tr>
+                <tr  style="background-color: #006bff14;">
+                  <td><a href="">company</a></td>
+                  <td>2024-8-5</td>
+                  <td class=""><span class="orange-color mx-2">37 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="text-success mx-2">100 %</span><span class="text-success"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="orange-color mx-2">50 %</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="mx-2">43</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="mx-2">22</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="mx-2">1</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="orange-color mx-2">10 d</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="mx-2">3.7 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="mx-2">43.6 K€</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="text-danger mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                  <td><a href="">direct link to EDM</a></td>
+              </tr>
+              <tr>
+                <td><a href="">company</a></td>
+                <td>2024-8-5</td>
+                <td class=""><span class="orange-color mx-2">37 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="text-success mx-2">100 %</span><span class="text-success"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="orange-color mx-2">50 %</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="mx-2">43</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="mx-2">22</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="mx-2">1</span><span class="gray-icon"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="orange-color mx-2">10 d</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="mx-2">3.7 %</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="mx-2">43.6 K€</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="text-danger mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td class=""><span class="text-success mx-2">100%</span><span class="text-secondary"><i class="fa-solid fa-chart-simple"></i></span></td>
+                <td><a href="">direct link to EDM</a></td>
+            </tr>
+            <tr  style="background-color: #006bff14;">
+              <td class="text-end">total</td>
+              <td></td>
+              <td class="">49%</td>
+              <td class="">100%</td>
+              <td class="">37.7%</td>
+              <td class="">937</td>
+              <td class="">1893</td>
+              <td class="">9</td>
+              <td class="">52 d</td>
+              <td class="">13.8%</td>
+              <td class="">5 m€</td>
+              <td></td>
+              <td class="">100%</td>
+              <td class="">98.8%</td>
+              <td class="">100%</td>
+              <td></td>
+          </tr> 
+              </tbody>
+          </table>
+      </div>
+  </div>
+
+   </div>
+</div>
+    <!--scirpt Files-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/gh/maxshuty/accessible-web-components@latest/dist/simpleRange.min.js"></script>
+    <script src="./js/email.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/all.min.js"></script>
+    <script src="js/searchBar.js"></script>
+    <script src="js/chartsNewPageThree.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="./js/risk.js"></script>
+    <!-- <script src="js/main.js" ></script> -->
+    <!--scirpt Files-->
+  </body>
+  
+  </html>
+  

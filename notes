@@ -1,0 +1,93 @@
+   <div class="row mt-2 p-2 px-md-4 text-center align-items-center">
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">entites</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">date</p>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">collection effciency</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">% qualified Overdue</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">late action rate</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">manual actions for last 30d</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">manual actions for last 30d</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">automatic actions for last 30d</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">number of late action +7day</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">average time for Dispute resolution</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">disputes rate</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">actual risk (amount)</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">actual risk (%)</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">rate of clients with collection scenario</p>
+            </div>
+            </div>
+            <div class="col ">
+              <div class="d-flex align-items-center justify-content-center gap-1 ">
+              <i class="fa-solid fa-sort mb-3" style="cursor:pointer"></i>
+              <p class="fw-bold">edm</p>
+            </div>
+            </div>
+
+        </div>
